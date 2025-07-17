@@ -130,3 +130,18 @@ if __name__ == "__main__":
     print(f"Anomaly Detection     : {anomaly_result}")
     if emotion1 != emotion2:
         print(f"⚠️ Emotion mismatch detected: {emotion1} → {emotion2}")
+
+
+
+
+
+'''
+Emotion Mapping Logic (Rule-Based)
+------------------------------------
+Emotion	    Pitch	    Energy	    ZCR	            Bandwidth
+Happy	    High	    High	    Medium-High	    High
+Sad	Low	    Low	Low	    Low
+Angry	    High	    High	    High	        High
+Neutral	    Medium	    Medium	    Medium	        Medium
+Fearful	    High	    Low/Med	    High	        Med/High
+'''
